@@ -1,0 +1,42 @@
+.report-incident {
+    padding: 20px;
+    flex: 1;
+  }
+  
+  .report-incident h2 {
+    margin-bottom: 20px;
+    color: #ff4b2b;
+  }
+  
+  .report-incident form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .report-incident label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .report-incident input,
+  .report-incident textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .report-incident .submit-btn {
+    padding: 10px;
+    background: linear-gradient(135deg, #ff416c, #ff4b2b);
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .report-incident .submit-btn:hover {
+    background: linear-gradient(135deg, #ff4b2b, #ff416c);
+  }
+  

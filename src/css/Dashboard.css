@@ -1,0 +1,35 @@
+.dashboard {
+  padding: 20px;
+  flex: 1;
+}
+
+.dashboard h1 {
+  margin-bottom: 20px;
+}
+
+.dashboard-content {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  flex: 1;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card h3 {
+  margin-top: 0;
+  color: #ff4b2b;
+}
+
+.card p {
+  color: #555;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}

@@ -1,0 +1,58 @@
+.category-list {
+    padding: 20px;
+  }
+  
+  .category-list h2 {
+    margin-bottom: 20px;
+  }
+  
+  .category-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .category-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+  }
+  
+  .category-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .category-card h3 {
+    margin: 0;
+  }
+  
+  .add-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ff416c;
+    color: #fff;
+  }
+  
+  .add-button:hover {
+    background-color: #ff4b2b;
+  }
+  
+  .category-list .MuiBox-root {
+    padding: 20px;
+  }
+  
+  .category-list .MuiButtonBase-root {
+    background-color: #ff416c;
+    color: #fff;
+  }
+  
+  .category-list .MuiButtonBase-root:hover {
+    background-color: #ff4b2b;
+  }
+  

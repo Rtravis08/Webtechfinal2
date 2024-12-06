@@ -1,0 +1,107 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.register-container {
+  display: flex;
+  width: 800px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  background: #fff;
+}
+
+.register-left,
+.register-right {
+  padding: 40px;
+  flex: 1;
+}
+
+.register-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #fff;
+}
+
+.register-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #ff416c, #ff4b2b);
+  color: #fff;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.social-icons i {
+  font-size: 20px;
+  color: #555;
+  cursor: pointer;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input,
+select {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.register-btn {
+  padding: 10px;
+  background: linear-gradient(135deg, #ff416c, #ff4b2b);
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.register-btn:hover {
+  background: linear-gradient(135deg, #ff4b2b, #ff416c);
+}
+
+.sign-in-btn {
+  padding: 10px 20px;
+  background: none;
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.sign-in-btn:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.error {
+  color: red; /* Set error message color to red */
+  font-size: 0.875em;
+  margin-top: -10px; /* Adjusted to bring closer to the input */
+  margin-bottom: 10px; /* Adjusted to bring closer to the input */
+}
